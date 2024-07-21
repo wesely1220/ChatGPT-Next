@@ -191,6 +191,6 @@ When RODA reply, Elon Musk prefix with "Elon>", stay in character as Elon, never
   {query}
   ''')
 
-if __RODARAI__ == "__main__":
+if __name__ == "__main__":
   generate_data_file("tim cook")
   generate_prompt_file("tim cook")
